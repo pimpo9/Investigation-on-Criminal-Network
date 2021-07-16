@@ -1,0 +1,277 @@
+Case 1:
+Betweenness centrality= 0.8,
+Closeness centrality= 0.05,
+Eigenvector centrality= 0.05,
+Pagerank centraliaty =0.05 
+
+THE PARTIAL RANKS PRODUCED ARE AS FOLLOWS
+
+Abdul Rehman >  Abu Shoaib
+Abdul Rehman >  Ajmal Amir Kasab
+Abdul Rehman >  Baba Imran
+Abdul Rehman >  Ismail Khan
+Abdul Rehman >  Javed
+Abdul Rehman >  Nasir
+Abu Shoaib >  Javed
+Ajmal Amir Kasab >  Abdul Rehman
+Ajmal Amir Kasab >  Abu Shoaib
+Ajmal Amir Kasab >  Baba Imran
+Ajmal Amir Kasab >  Javed
+Ajmal Amir Kasab >  Nasir
+Baba Imran >  Abu Shoaib
+Baba Imran >  Ajmal Amir Kasab
+Baba Imran >  Ismail Khan
+Baba Imran >  Javed
+Ismail Khan >  Abdul Rehman
+Ismail Khan >  Abu Shoaib
+Ismail Khan >  Baba Imran
+Ismail Khan >  Javed
+Ismail Khan >  Nasir
+Nasir >  Abu Shoaib
+Nasir >  Ajmal Amir Kasab
+Nasir >  Ismail Khan
+Nasir >  Javed
+
+Predicted Ranking -
+Abdul Rehman>Ajmal AmirKasab>Baba Imran>Ismail Khan>Nasir>Abu Shoaib>Javed
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case 2:
+For Betweenness centrality =1
+
+Wassi >  Abu Khaafa
+Wassi >  Zarar
+Wassi >  Fahadullah
+Wassi >  Abu Umer
+Wassi >  Hafiz Arshad
+Wassi >  Abdul Rehman
+Wassi >  Abu Shoaib
+Wassi >  Ajmal Amir Kasab
+Wassi >  Baba Imran
+Wassi >  Ismail Khan
+Wassi >  Javed
+Wassi >  Nasir
+Abu Khaafa >  Zarar
+Abu Khaafa >  Fahadullah
+Abu Khaafa >  Abu Umer
+Abu Khaafa >  Hafiz Arshad
+Abu Khaafa >  Abdul Rehman
+Abu Khaafa >  Abu Shoaib
+Abu Khaafa >  Ajmal Amir Kasab
+Abu Khaafa >  Baba Imran
+Abu Khaafa >  Ismail Khan
+Abu Khaafa >  Javed
+Abu Khaafa >  Nasir
+Zarar >  Fahadullah
+Zarar >  Abu Umer
+Zarar >  Hafiz Arshad
+Zarar >  Abdul Rehman
+Zarar >  Abu Shoaib
+Zarar >  Ajmal Amir Kasab
+Zarar >  Baba Imran
+Zarar >  Ismail Khan
+Zarar >  Javed
+Zarar >  Nasir
+Fahadullah >  Abu Umer
+Fahadullah >  Hafiz Arshad
+Fahadullah >  Abdul Rehman
+Fahadullah >  Abu Shoaib
+Fahadullah >  Ajmal Amir Kasab
+Fahadullah >  Baba Imran
+Fahadullah >  Ismail Khan
+Fahadullah >  Javed
+Fahadullah >  Nasir
+Abu Umer >  Abdul Rehman
+Abu Umer >  Abu Shoaib
+Abu Umer >  Ajmal Amir Kasab
+Abu Umer >  Baba Imran
+Abu Umer >  Ismail Khan
+Abu Umer >  Javed
+Abu Umer >  Nasir
+Hafiz Arshad >  Abdul Rehman
+Hafiz Arshad >  Abu Shoaib
+Hafiz Arshad >  Ajmal Amir Kasab
+Hafiz Arshad >  Baba Imran
+Hafiz Arshad >  Ismail Khan
+Hafiz Arshad >  Javed
+Hafiz Arshad >  Nasir
+
+Predicted Ranking
+
+1.Wassi>Abu Khaafa>Zarar>Fahadullah>Abu Umer
+2.Wassi>Abu Khaafa>Zarar>Fahadullah>Hafiz Arshad
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case 3:
+For Pagerank centrality=1
+Wassi >  Abu Khaafa
+Wassi >  Zarar
+Wassi >  Fahadullah
+Wassi >  Abu Umer
+Wassi >  Hafiz Arshad
+Wassi >  Abdul Rehman
+Wassi >  Abu Shoiab
+Wassi >  Ajmal Amir Kasab
+Wassi >  Baba Imran
+Wassi >  Ismail Khan
+Wassi >  Javed
+Wassi >  Nasir
+Abu Khaafa >  Zarar
+Abu Khaafa >  Fahadullah
+Abu Khaafa >  Abdul Rehman
+Abu Khaafa >  Abu Shoiab
+Abu Khaafa >  Ajmal Amir Kasab
+Abu Khaafa >  Baba Imran
+Abu Khaafa >  Ismail Khan
+Abu Khaafa >  Javed
+Abu Khaafa >  Nasir
+Zarar >  Fahadullah
+Zarar >  Abdul Rehman
+Zarar >  Abu Shoiab
+Zarar >  Baba Imran
+Zarar >  Nasir
+Fahadullah >  Abdul Rehman
+Fahadullah >  Abu Shoiab
+Fahadullah >  Baba Imran
+Fahadullah >  Nasir
+Abu Umer >  Abu Khaafa
+Abu Umer >  Zarar
+Abu Umer >  Fahadullah
+Abu Umer >  Abdul Rehman
+Abu Umer >  Abu Shoiab
+Abu Umer >  Ajmal Amir Kasab
+Abu Umer >  Baba Imran
+Abu Umer >  Ismail Khan
+Abu Umer >  Javed
+Abu Umer >  Nasir
+Hafiz Arshad >  Abu Khaafa
+Hafiz Arshad >  Zarar
+Hafiz Arshad >  Fahadullah
+Hafiz Arshad >  Abdul Rehman
+Hafiz Arshad >  Abu Shoiab
+Hafiz Arshad >  Ajmal Amir Kasab
+Hafiz Arshad >  Baba Imran
+Hafiz Arshad >  Ismail Khan
+Hafiz Arshad >  Javed
+Hafiz Arshad >  Nasir
+Abdul Rehman >  Baba Imran
+Abdul Rehman >  Nasir
+Abu Shoiab >  Abdul Rehman
+Abu Shoiab >  Baba Imran
+Abu Shoiab >  Nasir
+Ajmal Amir Kasab >  Zarar
+Ajmal Amir Kasab >  Fahadullah
+Ajmal Amir Kasab >  Abdul Rehman
+Ajmal Amir Kasab >  Abu Shoiab
+Ajmal Amir Kasab >  Baba Imran
+Ajmal Amir Kasab >  Nasir
+Ismail Khan >  Zarar
+Ismail Khan >  Fahadullah
+Ismail Khan >  Abdul Rehman
+Ismail Khan >  Abu Shoiab
+Ismail Khan >  Baba Imran
+Ismail Khan >  Nasir
+Javed >  Zarar
+Javed >  Fahadullah
+Javed >  Abdul Rehman
+Javed >  Abu Shoiab
+Javed >  Ajmal Amir Kasab
+Javed >  Baba Imran
+Javed >  Ismail Khan
+Javed >  Nasir
+
+Predicted Ranking-
+
+1.Wassi>Abu Umer>Abu Kaafha>Javed>Ismail Khan>Zarar>Fahadullah>Abu Shoaib>Abdul Rehman>Baba Imran
+2.Wassi>Hafiz Arshad>Abu Kaafha>Javed>Ismail Khan>Zarar>Fahadullah>Abu Shoaib>Abdul Rehman>Baba Imran
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
